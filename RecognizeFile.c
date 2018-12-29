@@ -2,7 +2,6 @@
 int RecognizeFile(char* fileName)
 {
 	int len=strlen(fileName);
-    what?
 	if(len<2)
 		return IS_NONE;
 	char type[3]={fileName[len-2],fileName[len-1],'\0'};
