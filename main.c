@@ -5,7 +5,6 @@
 #include "GenerateMakefile.h"
 int main(int argc,char** argv)
 {
-    yes
 	char* filePaths[MAX_FILE_COUNT]={};
 	int pos=0;
 	char path[MAX_FILENAME_LEN]=".";
